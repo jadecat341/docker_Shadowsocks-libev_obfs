@@ -46,3 +46,6 @@ RUN rm -rf /opt/shadowsocks-libev /opt/simple-obfs
 
 # 设置容器的入口点
 ENTRYPOINT ["ss-server"]
+
+# 在配置好 Dockerfile 的目录中，您可以用以下命令构建和运行 Docker 镜像：
+# docker build -t my-shadowsocks-obfs .
